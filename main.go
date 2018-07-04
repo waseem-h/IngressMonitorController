@@ -27,7 +27,7 @@ func main() {
 		kubeClient = kube.GetClient()
 	}
 
-	// fetche and create controller config from file
+	// fetch and create controller config from file
 	config := config.GetControllerConfig()
 
 	// create the monitoring controller
